@@ -76,4 +76,9 @@ public class BubbleSort implements SortAlgorithm {
     public String getStatusMessage() {
         return statusMessage;
     }
+
+    @Override
+    public String getName() {
+        return "Bubble Sort";
+    }
 }

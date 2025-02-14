@@ -3,7 +3,7 @@ JAVA  = java
 SRC   = dsaVisualizer/*.java
 BIN   = bin
 
-MODULES = --module-path $(PATH_TO_FX) --add-modules javafx.controls
+MODULES = --module-path $(PATH_TO_FX) --add-modules javafx.controls,javafx.graphics
 
 all:
 	@echo "Compiling JavaFX sources..."

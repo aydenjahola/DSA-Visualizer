@@ -27,7 +27,7 @@ public class ControlPanel extends VBox {
         speedLabel = new Label("Speed:");
         
         algorithmSelector = new ComboBox<>();
-        algorithmSelector.getItems().add("Bubble Sort");  //TODO add more algorithms
+        algorithmSelector.getItems().addAll("Bubble Sort", "Selection Sort"); //TODO add more algorithms
         algorithmSelector.getSelectionModel().selectFirst();
         
         buttonRow = new HBox(10);

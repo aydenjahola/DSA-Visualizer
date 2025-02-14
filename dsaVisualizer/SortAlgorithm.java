@@ -26,4 +26,9 @@ public interface SortAlgorithm {
      * @return a status message describing the last operation.
      */
     String getStatusMessage();
+
+    /**
+     * @return the name of the sorting algorithm.
+     */
+    String getName();
 }
